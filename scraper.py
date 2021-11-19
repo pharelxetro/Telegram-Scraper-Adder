@@ -76,7 +76,7 @@ g_index = input(gr+"[+] Enter a Number : "+re)
 target_group=groups[int(g_index)]
  
 print(gr+'[+] Fetching Members...')
-time.sleep(1)
+time.sleep(15)
 all_participants = []
 all_participants = client.get_participants(target_group, aggressive=True)
  
